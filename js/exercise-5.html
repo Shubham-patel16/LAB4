@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <Script>
+        // Write a function to return a function
+        function oldFunction() {
+            return function () {
+                return "This is an original function."
+            }
+        }
+        let myFunction=oldFunction();
+        alert (myFunction());
+
+    </Script>
+</body>
+
+</html>
